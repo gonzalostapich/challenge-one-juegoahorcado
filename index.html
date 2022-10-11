@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    
+
+    <header>
+        <h1>El Ahorcado</h1>
+        <img src="imagenes/logo.png" alt="Logo de Encriptador" id="logo">
+    </header>
+
+    
+        <div id="inicio">
+
+            <button class="btnIniciar" id="btnIniciar">Iniciar juego</button>
+            <button class="btnAgregar" id="btnAgregar">Agregar nueva palabra</button>
+
+        </div>
+
+        <div id="nuevaPalabra">
+
+            <textarea id="entrada" cols="40" rows="8" class="textarea1" placeholder="Ingrese una palabra Máx. de 8 letras, sin números ni caracteres especiales."></textarea>
+
+            <div>
+                <p class="advertencia"><img src="imagenes/exclamacion.png" id="exclamacion"> Máx. de 8 letras</p>
+                <button id="guardar" class="guardar">Guardar y empezar</button>
+                <button id="cancelar" class="cancelar">Cancelar</button>
+            </div>
+
+        </div>
+
+        <div id="juego">
+            <canvas id="pantalla" width="800" height="550"></canvas>
+            <input id="input-teclado">
+            <div>
+                <button id="nuevoJuego" class="nuevoJuego">Nuevo juego</button>
+                <button id="desistir" class="desistir">Desistir</button>
+            </div>
+        
+        </div>
+    
+
+    
+
+    <footer>
+        <div id="footer">
+            <p class="creador">Realizado por Gonzalo Stapich</p>
+
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/gonzalo.stapich"target="_blank"><img loading="lazy" src="imagenes/facebook.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/gonzalo-stapich/"target="_blank"><img loading="lazy" src="imagenes/linkedin.png"></a></li>
+                    <li><a href="https://github.com/gonzalostapich" target="_blank"><img loading="lazy" src="imagenes/github.svg"></a></li>
+                </ul>
+            </nav>
+
+        </div>
+    
+
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="horca.js"></script>
+    
+</body>
+</html>
