@@ -64,7 +64,7 @@ button{
 
 .btnIniciar{
 
-
+    display: block;
     position: absolute;
     width: 19.8rem;
     height: 7.12rem;
@@ -72,7 +72,6 @@ button{
     text-align: center;
     align-items: center;
     color: #FFFFFF;
-    margin-bottom: 2.375rem;
     background: #e84003;
     border: none;
     
@@ -84,11 +83,11 @@ button{
 }
 
 .btnAgregar{
-
+    display: block;
     position: absolute;
     background: transparent;
     border: 2px solid #e84003;
-    top: 500px;
+    margin-top: 150px;
     color: #e84003;
 }
 
